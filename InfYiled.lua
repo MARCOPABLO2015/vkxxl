@@ -10044,7 +10044,7 @@ addcmd('r6',{'R6'},function(args, speaker)
 	notify("loading",'Hold on a sec')
  --Full Credits To Expired
  --Fixed By Marco
- loadstring(game:HttpGet(('https://raw.githubusercontent.com/Imagnir/r6_anims_for_r15/main/r6_anims.lua'),true))()a
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/MARCOPABLO2015/R6_SCRIT_FIXED_BYDRIZZY/main/R6.lua'),true))()
 end)
 
 addcmd('audiologger',{'alogger'},function(args, speaker)
