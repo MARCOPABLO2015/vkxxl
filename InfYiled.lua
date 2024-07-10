@@ -10033,7 +10033,7 @@ addcmd('aimbot',{'aim'},function(args, speaker)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-Script/main/Aimbot%20Script%20(Without%20FOV).lua"))()
 end)
 
-addcmd('r6',{'R6'},function(args, speaker)
+addcmd('Town',{'tow'},function(args, speaker)
 	notify("loading",'Hold on a sec')
  --Full Credits To Expired
  --Fixed By Marco
