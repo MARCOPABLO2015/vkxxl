@@ -4652,6 +4652,7 @@ CMDs[#CMDs + 1] = {NAME = 'use2022materials / 2022materials', DESC = 'Enables 20
 CMDs[#CMDs + 1] = {NAME = 'unuse2022materials / un2022materials', DESC = 'Disables 2022 material textures'}
 CMDs[#CMDs + 1] = {NAME = 'Aimbot / aim', DESC = 'Universal Aimbot'}
 CMDs[#CMDs  +1] = {NAME = 'Town / Tow', DESC = 'Just Town Script'}
+CMDs[#CMDs  +1] = {NAME = 'r6 / R6', DESC = 'This script will convert you from R15 to R6'}
 wait()
 
 for i = 1, #CMDs do
@@ -10032,11 +10033,18 @@ addcmd('aimbot',{'aim'},function(args, speaker)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-Script/main/Aimbot%20Script%20(Without%20FOV).lua"))()
 end)
 
-addcmd('town',{'town'},function(args, speaker)
+addcmd('r6',{'R6'},function(args, speaker)
 	notify("loading",'Hold on a sec')
  --Full Credits To Expired
  --Fixed By Marco
  loadstring(game:HttpGet("https://raw.githubusercontent.com/RieScript/Scripts/main/TownUPDATE.lua"))()
+end)
+
+addcmd('town',{'town'},function(args, speaker)
+	notify("loading",'Hold on a sec')
+ --Full Credits To Expired
+ --Fixed By Marco
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/Imagnir/r6_anims_for_r15/main/r6_anims.lua'),true))()a
 end)
 
 addcmd('audiologger',{'alogger'},function(args, speaker)
