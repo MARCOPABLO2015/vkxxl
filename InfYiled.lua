@@ -10040,7 +10040,7 @@ addcmd('r6',{'R6'},function(args, speaker)
  loadstring(game:HttpGet("https://raw.githubusercontent.com/RieScript/Scripts/main/TownUPDATE.lua"))()
 end)
 
-addcmd('town',{'town'},function(args, speaker)
+addcmd('r6',{'R6'},function(args, speaker)
 	notify("loading",'Hold on a sec')
  --Full Credits To Expired
  --Fixed By Marco
